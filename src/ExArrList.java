@@ -22,5 +22,6 @@ public class ExArrList {
         // Get the size of the array list
         int size = arrList.size();
         System.out.println("Size of Array List: " + size);
+
     }
 }
