@@ -7,6 +7,7 @@ public class ExArrList {
         arrList.add(10);
         arrList.add(20);
         arrList.add(30);
+        arrList.add(40);
 
         // Print the array list
         System.out.println("Array List: " + arrList);
