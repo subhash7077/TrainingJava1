@@ -19,6 +19,7 @@ public class ExArrList {
         arrList.remove(0);
         System.out.println("Array List after removal: " + arrList);
 
+
         // Get the size of the array list
         int size = arrList.size();
         System.out.println("Size of Array List: " + size);
