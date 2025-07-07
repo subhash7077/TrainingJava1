@@ -3,7 +3,7 @@ package training.java.Arrayex;
 import java.util.Arrays;
 
 public class FindSecondGreatestNo {
-    static int getSecondLargest(int[] arr){
+    static int getSecondLargestNO(int[] arr){
         int length= arr.length;
         Arrays.sort(arr);
         for(int i=length-2;i>=0;i--){
@@ -17,6 +17,6 @@ public class FindSecondGreatestNo {
 
     public static void main(String[] args) {
         int[] arr={10};
-        System.out.println("Second Largest no is: " + getSecondLargest(arr));
+        System.out.println("Second Largest no is: " + getSecondLargestNO(arr));
     }
 }
